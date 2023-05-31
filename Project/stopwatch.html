@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Stopwatch</title>
+  <link rel="stylesheet" type="text/css" href="stopwatch.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+   <!--Heading-->
+   <header class="hero-header">
+    <div class="container">
+      <img src="Assets/Logo.png" alt="Logo" class="logo">
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="calculator.html">Calculator</a></li>
+          <li><a href="tallycounter.html">Tally Counter</a></li>
+          <li><a href="clock.html">Clock</a></li>
+        </ul>
+      </nav>
+      <h1 class="hero-title">Statistical Tool Web</h1>
+      <h2 class="hero-subtitle">Learn, Explore, Connect</h2>
+    </div>
+  </header>
+  <main>
+  <div class="stopwatch">
+    <h1 id="display">00:00:00</h1>
+    <div class="buttons">
+      <button id="startStopButton" onclick="startStop()">Start</button>
+      <button id="lapResetButton" onclick="lapReset()">Lap</button>
+    </div>
+    <ul id="lapsList"></ul>
+  </div>
+  </main>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-form">
+      <form>
+        <h2>Contact Us</h2>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <textarea placeholder="Message"></textarea>
+        <button type="submit"> <a href="mailto:qassimalfarsy000@gmail.com"> Send Message</a></button>
+      </form>
+    </div>
+      <div class="contact-info">
+        <h3>Contact Information</h3>
+        <p><div class="phone-icon">
+          <i class="fas fa-phone"></i>
+        </div>Phone: +254 748864675 </p>
+        <p><div class="email-icon">
+          <i class="far fa-envelope"></i>
+        </div>Email: qassimalfarsy000@gmail.com</p>
+        <p><div class="location-icon">
+          <i class="fas fa-map-marker-alt"></i>
+        </div>Address: TUK, Nairobi, Kenya</p>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="stopwatch.js"></script>
+</body>
+</html>
