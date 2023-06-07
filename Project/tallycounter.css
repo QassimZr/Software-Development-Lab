@@ -58,6 +58,23 @@
   padding: 10px;
 }
 
+/* .topic{
+  color: #5A5A5A;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.topic i {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.topic-text {
+  color: #5A5A5A;
+  text-align: left;
+} */
+
 .counter {
     margin-top: 20px;
     height: 400px;
